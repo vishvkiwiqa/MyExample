@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.kiwiqa.extentreportspark.TestListener" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.kiwiqa.extentreportspark.ExtentReportExample" />
+		</classes>
+	</test> 
+	
+<!--
+	<test thread-count="5" name="tTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.kiwiqa.extentreportspark.ExtentReportExample" />
+		</classes>
+	</test>
+-->
+
+
+	
+
+</suite> <!-- Suite -->

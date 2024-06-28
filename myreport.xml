@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    
+    <!-- Define the listeners -->
+    <listeners>
+        <listener class-name="com.kiwiqa.commonfiles.TestListener"/>
+    </listeners>
+    
+    <!-- Define your test -->
+    <test name="FormWithTestNGTest">
+        <classes>
+            <class name="com.kiwiqa.testNGexamples.FormWithTestNG"/>
+        </classes>
+    </test>
+    
+</suite>
