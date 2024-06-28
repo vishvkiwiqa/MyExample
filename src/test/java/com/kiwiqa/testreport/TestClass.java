@@ -27,7 +27,7 @@ public class TestClass extends CommonFiles
 	public void beforeTest() throws AWTException, IOException
 	{
 		CommonFiles.setupreport();
-		CommonFiles.chromeDriverIn();
+		CommonFiles.edgeDriverIn();
 		CommonFiles.actionsClassIn();
 		CommonFiles.robotClassIn();
 		CommonFiles.loadConfigFile();

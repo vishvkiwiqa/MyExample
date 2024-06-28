@@ -77,6 +77,12 @@ public class CommonFiles
 		driver.manage().window().maximize();
 	}
 
+	public static  void edgeDriverIn()
+	{
+		driver=new EdgeDriver();
+
+		driver.manage().window().maximize();
+	}
 	public static  void actionsClassIn()
 	{
 		action = new Actions(driver);
