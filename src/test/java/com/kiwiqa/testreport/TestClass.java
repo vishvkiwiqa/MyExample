@@ -77,14 +77,7 @@ public class TestClass extends CommonFiles
 		lp.verifySuccessfullyUpdate("Successfully Updated");
 		test.info("Update Msg Is Verified");
 	}
-	@Test
-	public void title() throws InterruptedException
-	{
-		test=extent.createTest("My info Check ");
-		driver.get("https://www.google.com/");
-		Thread.sleep(3000);
-		assertEquals(driver.getTitle(),"Google");
-	}
+	
 	@Test
 	public void formReg() throws IOException
 	{

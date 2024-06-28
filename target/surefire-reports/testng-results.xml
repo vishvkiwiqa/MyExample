@@ -1,185 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-21T14:52:32 IST" name="Suite" finished-at="2024-05-21T14:58:43 IST" duration-ms="370719">
+  <suite started-at="2024-06-28T10:30:25 IST" name="Suite" finished-at="2024-06-28T10:31:57 IST" duration-ms="91593">
     <groups>
     </groups>
-    <test started-at="2024-05-21T14:52:32 IST" name="Test" finished-at="2024-05-21T14:58:43 IST" duration-ms="370719">
-      <class name="com.kiwiqa.actionsclassmethods.ActionsClassMethods">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:54:11 IST" name="openBrowser" finished-at="2024-05-21T14:54:13 IST" duration-ms="2421" status="PASS">
+    <test started-at="2024-06-28T10:30:25 IST" name="Test" finished-at="2024-06-28T10:31:57 IST" duration-ms="91593">
+      <class name="com.kiwiqa.testreport.TestClass">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.kiwiqa.testreport.TestClass@61862a7f]" started-at="2024-06-28T10:30:25 IST" name="beforeTest" finished-at="2024-06-28T10:30:38 IST" duration-ms="12785" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="doubleClickExample()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:54:13 IST" name="doubleClickExample" finished-at="2024-05-21T14:54:23 IST" duration-ms="9670" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="formReg()[pri:0, instance:com.kiwiqa.testreport.TestClass@61862a7f]" started-at="2024-06-28T10:30:38 IST" name="formReg" finished-at="2024-06-28T10:31:19 IST" duration-ms="40446" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doubleClickExample -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:54:23 IST" name="closeBrowser" finished-at="2024-05-21T14:54:24 IST" duration-ms="565" status="PASS">
+        </test-method> <!-- formReg -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.kiwiqa.testreport.TestClass@61862a7f]" started-at="2024-06-28T10:31:19 IST" name="afterMethod" finished-at="2024-06-28T10:31:21 IST" duration-ms="2500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=formReg status=SUCCESS method=TestClass.formReg()[pri:0, instance:com.kiwiqa.testreport.TestClass@61862a7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:54:24 IST" name="openBrowser" finished-at="2024-05-21T14:54:26 IST" duration-ms="2721" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method signature="loginVerify()[pri:0, instance:com.kiwiqa.testreport.TestClass@61862a7f]" started-at="2024-06-28T10:31:21 IST" name="loginVerify" finished-at="2024-06-28T10:31:54 IST" duration-ms="32533" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="dragAndDropDemo()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:54:26 IST" name="dragAndDropDemo" finished-at="2024-05-21T14:54:49 IST" duration-ms="22509" status="PASS">
+        </test-method> <!-- loginVerify -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.kiwiqa.testreport.TestClass@61862a7f]" started-at="2024-06-28T10:31:54 IST" name="afterMethod" finished-at="2024-06-28T10:31:56 IST" duration-ms="2257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginVerify status=SUCCESS method=TestClass.loginVerify()[pri:0, instance:com.kiwiqa.testreport.TestClass@61862a7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dragAndDropDemo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:54:49 IST" name="closeBrowser" finished-at="2024-05-21T14:54:49 IST" duration-ms="384" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.kiwiqa.testreport.TestClass@61862a7f]" started-at="2024-06-28T10:31:56 IST" name="afterclass" finished-at="2024-06-28T10:31:57 IST" duration-ms="885" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:54:49 IST" name="openBrowser" finished-at="2024-05-21T14:54:52 IST" duration-ms="2648" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="iframeDemo()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:54:52 IST" name="iframeDemo" finished-at="2024-05-21T14:55:06 IST" duration-ms="14036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iframeDemo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:55:06 IST" name="closeBrowser" finished-at="2024-05-21T14:55:06 IST" duration-ms="411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:55:06 IST" name="openBrowser" finished-at="2024-05-21T14:55:09 IST" duration-ms="2190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="iframeNestedDemo()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:55:09 IST" name="iframeNestedDemo" finished-at="2024-05-21T14:56:02 IST" duration-ms="53524" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iframeNestedDemo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:56:02 IST" name="closeBrowser" finished-at="2024-05-21T14:56:03 IST" duration-ms="692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:56:03 IST" name="openBrowser" finished-at="2024-05-21T14:56:06 IST" duration-ms="3198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="modalDialogsExamples()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:56:06 IST" name="modalDialogsExamples" finished-at="2024-05-21T14:56:37 IST" duration-ms="30728" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modalDialogsExamples -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:56:37 IST" name="closeBrowser" finished-at="2024-05-21T14:56:37 IST" duration-ms="477" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:56:37 IST" name="openBrowser" finished-at="2024-05-21T14:56:40 IST" duration-ms="2459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="multiSelect()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:56:40 IST" name="multiSelect" finished-at="2024-05-21T14:56:49 IST" duration-ms="8834" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multiSelect -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:56:49 IST" name="closeBrowser" finished-at="2024-05-21T14:56:49 IST" duration-ms="531" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:56:49 IST" name="openBrowser" finished-at="2024-05-21T14:56:52 IST" duration-ms="3211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="resizeDemo()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:56:52 IST" name="resizeDemo" finished-at="2024-05-21T14:57:01 IST" duration-ms="9176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resizeDemo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:57:01 IST" name="closeBrowser" finished-at="2024-05-21T14:57:04 IST" duration-ms="2179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:57:04 IST" name="openBrowser" finished-at="2024-05-21T14:57:06 IST" duration-ms="2615" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="rightClickExample()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:57:06 IST" name="rightClickExample" finished-at="2024-05-21T14:57:14 IST" duration-ms="7544" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rightClickExample -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:57:14 IST" name="closeBrowser" finished-at="2024-05-21T14:57:15 IST" duration-ms="722" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:57:15 IST" name="openBrowser" finished-at="2024-05-21T14:57:18 IST" duration-ms="3242" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="subMenuDemo()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:57:18 IST" name="subMenuDemo" finished-at="2024-05-21T14:57:49 IST" duration-ms="30791" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subMenuDemo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:57:49 IST" name="closeBrowser" finished-at="2024-05-21T14:57:51 IST" duration-ms="2022" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:57:51 IST" name="openBrowser" finished-at="2024-05-21T14:57:53 IST" duration-ms="2817" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="toolTipExample()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:57:53 IST" name="toolTipExample" finished-at="2024-05-21T14:58:41 IST" duration-ms="47615" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toolTipExample -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.actionsclassmethods.ActionsClassMethods@5119fb47]" started-at="2024-05-21T14:58:41 IST" name="closeBrowser" finished-at="2024-05-21T14:58:43 IST" duration-ms="1847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.kiwiqa.actionsclassmethods.ActionsClassMethods -->
-      <class name="com.kiwiqa.sliderexamples.SliderExamples">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.sliderexamples.SliderExamples@6a192cfe]" started-at="2024-05-21T14:52:58 IST" name="openBrowser" finished-at="2024-05-21T14:53:02 IST" duration-ms="4371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="progressBarDemo()[pri:0, instance:com.kiwiqa.sliderexamples.SliderExamples@6a192cfe]" started-at="2024-05-21T14:53:02 IST" name="progressBarDemo" finished-at="2024-05-21T14:53:34 IST" duration-ms="31633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- progressBarDemo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.sliderexamples.SliderExamples@6a192cfe]" started-at="2024-05-21T14:53:34 IST" name="closeBrowser" finished-at="2024-05-21T14:53:35 IST" duration-ms="569" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.sliderexamples.SliderExamples@6a192cfe]" started-at="2024-05-21T14:53:35 IST" name="openBrowser" finished-at="2024-05-21T14:53:38 IST" duration-ms="3226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="sliderDemo()[pri:0, instance:com.kiwiqa.sliderexamples.SliderExamples@6a192cfe]" started-at="2024-05-21T14:53:38 IST" name="sliderDemo" finished-at="2024-05-21T14:53:49 IST" duration-ms="11291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sliderDemo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.sliderexamples.SliderExamples@6a192cfe]" started-at="2024-05-21T14:53:49 IST" name="closeBrowser" finished-at="2024-05-21T14:53:50 IST" duration-ms="617" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.sliderexamples.SliderExamples@6a192cfe]" started-at="2024-05-21T14:53:50 IST" name="openBrowser" finished-at="2024-05-21T14:53:52 IST" duration-ms="2759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="sliderDemo1()[pri:0, instance:com.kiwiqa.sliderexamples.SliderExamples@6a192cfe]" started-at="2024-05-21T14:53:52 IST" name="sliderDemo1" finished-at="2024-05-21T14:54:10 IST" duration-ms="18054" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sliderDemo1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.sliderexamples.SliderExamples@6a192cfe]" started-at="2024-05-21T14:54:11 IST" name="closeBrowser" finished-at="2024-05-21T14:54:11 IST" duration-ms="560" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.kiwiqa.sliderexamples.SliderExamples -->
-      <class name="com.kiwiqa.datepickersexample.DatePickerExamples">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kiwiqa.datepickersexample.DatePickerExamples@654f0d9c]" started-at="2024-05-21T14:52:32 IST" name="openBrowser" finished-at="2024-05-21T14:52:38 IST" duration-ms="6052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="dataPickerDemo()[pri:0, instance:com.kiwiqa.datepickersexample.DatePickerExamples@654f0d9c]" started-at="2024-05-21T14:52:38 IST" name="dataPickerDemo" finished-at="2024-05-21T14:52:58 IST" duration-ms="19565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataPickerDemo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kiwiqa.datepickersexample.DatePickerExamples@654f0d9c]" started-at="2024-05-21T14:52:58 IST" name="closeBrowser" finished-at="2024-05-21T14:52:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.kiwiqa.datepickersexample.DatePickerExamples -->
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.kiwiqa.testreport.TestClass -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
